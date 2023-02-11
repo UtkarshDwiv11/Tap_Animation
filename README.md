@@ -1,19 +1,20 @@
-Tap Animation
+Tap Animation-
+
 This is a Flutter project that demonstrates how to create a simple tap animation. The animation involves expanding a blue box from the bottom of a circle when the circle is tapped.
 
-Getting Started
+Getting Started-
+
 To run this project, you will need to have the Flutter SDK installed on your machine. If you do not have it installed, you can download it from the Flutter website.
 
-Project Structure
-The project has the following structure:
+Project Structure-
 
+The project has the following structure:
 lib/
 |- main.dart
-
 main.dart is the main file that runs the project.
 
-Key Classes and Widgets
 
+Key Classes and Widgets-
 The following classes and widgets are important in this project:
 
 MyApp: A StatelessWidget that returns a MaterialApp widget with a Scaffold as the home page.
@@ -37,9 +38,8 @@ GestureDetector: A widget that detects gestures.
 AnimatedBuilder: A widget that rebuilds whenever the animation changes.
 
 
-Functionality
+Functionality-
 The project uses the following logic to implement the tap animation:
-
 The animation is controlled by an AnimationController object.
 The animation is defined by a Tween object that specifies the start and end values of the animation.
 The animation is triggered by tapping a circle. When the circle is tapped, the AnimationController object's forward method is called to start the animation, and the reverse method is called to stop it.
